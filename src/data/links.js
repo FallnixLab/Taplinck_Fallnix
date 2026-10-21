@@ -1,0 +1,35 @@
+export const SOCIAL_LINKS = [
+  {
+    id: 'github',
+    name: 'GitHub',
+    iconKey: 'Github',
+    url: 'https://github.com/TheFallnix',
+    desc: 'Source code & open-source projects',
+    actionType: 'link',
+  },
+  {
+    id: 'telegram',
+    name: 'Telegram',
+    iconKey: 'Telegram',
+    url: 'https://t.me/Fallnix',
+    desc: 'DM me for collaboration & inquiries',
+    actionType: 'link',
+  },
+  {
+    id: 'email',
+    name: 'Email',
+    iconKey: 'Mail',
+    url: 'mailto:admin@fallnix.ru',
+    rawEmail: 'admin@fallnix.ru',
+    desc: 'admin@fallnix.ru (Click to copy)',
+    actionType: 'copy',
+  },
+  {
+    id: 'tiktok',
+    name: 'TikTok',
+    iconKey: 'TikTok',
+    url: 'https://tiktok.com/@thefallnix',
+    desc: 'Coding & Tech content',
+    actionType: 'link',
+  },
+];
